@@ -1,0 +1,44 @@
+.background-container {
+	
+	float: left;
+	width: 100%;
+	height: calc(100% - 50px);
+	background: pink;
+	
+}
+
+
+
+.background-container .one-strip {
+	
+	height: 100%;
+	padding: 15% 20px;
+	
+}
+
+
+
+.background-container .one-strip.blank {
+
+	background: url("../images/wide_street.jpeg");
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	
+}
+
+
+
+
+.background-container .one-strip.customer {
+	background: #337ab7;
+	color: #fff;
+}
+
+
+
+.background-container .one-strip.admin {
+	background: #333;
+	color: #fff;
+}

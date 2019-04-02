@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+
+.account-page {
+	background: #30c777;
+	min-height: 100vh;
+	background: url("../images/bus_shore_overlay.png");
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+
+
+.account-page.customer {
+	background: #30c777;
+	min-height: 100vh;
+	background: url("../images/wide_street.png");
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+
+
+.account-page .account-wrapper {
+	width: 350px;
+	margin:100px auto;
+	overflow: auto;
+	display: block;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+
+.account-page .account-wrapper .account-action-title {
+	padding: 5px 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.account-page .account-wrapper .login-register-form {
+	padding: 20px;
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+
+.account-page .account-wrapper .account-instructions {
+	padding: 10px 20px;
+	clear: both;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+
+
+.invalid-feedback {
+	display: block;
+	margin-top:5px;
+	font-size: 90%;
+	clear: both;
+	float: left;
+	display: block;
+	color: red;
+}
+
+
+
+/*.mat_input_field.is-invalid {
+
+	border-bottom: 1px solid red;
+	
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.toggle_login .cred-area .cred-controls {
+	float: left;
+	height: 40px;
+	width: 100%;
+}
+
+.toggle_login .cred-area .cred-controls .cred-option {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.toggle_login .cred-area .cred-controls .cred-option.current  {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #333;
+	background: #fff;
+}
+
+
+.toggle_login .cred-area .cred-controls .cred-option.close-out {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 5px;
+	color: #fff;
+}
+
+
+.toggle_login .cred-area .cred-login, .toggle_login .cred-area .cred-register {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 30px 20px;
+}
+
+
+.toggle_login .cred-area .cred-register {
+display: none;
+}
+
+
+.flat_field {
+	float: left;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #eaeaea;
+	height: 40px;
+	outline: none;
+}
+
+
+.flat_button {
+	float: left;
+	width: auto;
+	border: none;
+	height: 40px;
+	padding: 0px 20px;
+	background: #006699;
+	color: #fff;
+	outline: none;
+}
+
+
+.separate-inputs {
+	float: left;
+	width: 100%;
+	height: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 481px){
+
+	.toggle_login .cred-area {
+		width: 100%;
+		margin:30px auto;
+		overflow: auto;
+		display: block;
+	}
+
+}

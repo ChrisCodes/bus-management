@@ -1,0 +1,37 @@
+
+.input-group {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+ .input-group .field-label {
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px 0px;
+ 	font-weight: 600;
+ 	margin-bottom: 5px;
+ }
+
+
+ .input-group .mat_input_field {
+ 	border-bottom: 1px solid #ccc;
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px;
+ }
+
+
+ .input-group .mat_input_field.is-invalid {
+ 	border-bottom: 1px solid red;
+ }
+
+
+ .input-group label.error {
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px 0px;
+ 	font-weight: 400;
+ 	color: red;
+ }

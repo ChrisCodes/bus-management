@@ -1,0 +1,556 @@
+
+ * {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	outline: 0px;
+ 	border: none;
+ 	box-sizing: border-box;
+ 	font-family: Helvetica;
+	font-family: Sans-Serif,"Segoe UI","Segoe WP",Arial;
+	-webkit-transition: .3s;
+	transition: .3s;
+	text-decoration: none;
+ }
+
+
+ .smooth_corner {
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ }
+
+
+.input-group {
+	
+}
+
+ .space20 {
+ 	float:left;
+ 	width:100%;
+ 	margin-top:20px;
+ 	clear:both;
+ }
+
+
+ .inner-pad {
+	 float: left;
+	 width:100%;
+	 padding: 0px 6%;
+ }
+
+.sect-pad {
+    float: left;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.make-bold {
+    font-weight: 700;
+}
+
+
+.color-primary {
+	color: #00843d;
+}
+
+
+.fl100 {
+
+		float: left;
+	width: 100%;
+	
+}
+/*
+.large-title {
+	 font-size: 30px;
+	 font-weight: 800;
+	 width: 100%;
+	 float: left;
+	 line-height: 1.1;
+	 padding-bottom: 10px;
+}
+
+ .fancy-title {
+	 font-size:35px;
+	 width: 100%;
+	 float: left;
+	 line-height: 1;
+	 padding-bottom: 10px;
+ }
+
+
+ .quote-text {
+     font-size:20px;
+	 width: 100%;
+	 float: left;
+	 line-height: 1;
+	 padding-bottom: 10px;
+ }
+
+
+ .simple-title {
+	  font-size: 17px;
+	 font-weight: 600;
+	 width: 100%;
+	 float: left;
+	 line-height: 1.1;
+	 padding: 10px 0px;
+ }
+
+
+ .normal-text {
+	 font-size: 16px;
+	 line-height: 1.4;
+	width: 100%;
+	 float: left;
+     padding: 20px 0px;
+ }
+
+
+.medium-normal {
+	font-size: 17px;
+	font-weight: 600;
+	padding:5px 0px;
+}
+ 
+.medium-title {
+	 font-size: 22px;
+	 font-weight: 800;
+ }
+ 
+
+
+
+.fourcolumn {
+	float: left;
+	width: 25%;
+	padding: 0px 10px;
+}
+
+
+.threecolumn {
+	float: left;
+	width: 33.3333%;
+	position: relative;
+	display:block;
+}
+
+
+div.threecolumn.ma {
+clear:both;
+}
+
+
+
+.cta {
+	width: 200px;
+	background: #f56801;
+	padding: 10px 0px;
+	border-radius: 2px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	clear: both;
+}
+
+.hide-desktop {
+	display: none;
+}
+
+.hide-mobile {
+	display: block;
+}
+
+
+
+/*flex container 
+.flex-container {
+	float: left;
+	height: auto;
+	position: relative;
+}
+
+
+.flex-container:before {
+content: "";
+display: block;
+padding-top:70%;
+}
+
+.inner-flex {
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+
+.put-center {
+	text-align: center;
+}
+
+.bottom-pad {
+	padding-bottom: 40px;
+}
+
+.bottom-margin {
+	margin-bottom: 40px;
+}
+
+
+
+
+.bf-button {
+   display: inline-block;
+    text-decoration: none;
+    border: 2px solid #0ba8be;
+    color: #0ba8be;
+    padding:10px 20px;
+    clear: both;
+    float: left;
+    font-weight:600;
+    overflow: auto;
+    text-align: center;
+      margin-top:20px;
+}
+
+
+.bf-button:hover {
+background: #053b4c;
+border: 2px solid #053b4c;
+color: #fff;
+font-weight:600;
+}
+
+
+
+.wf-button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding:10px 20px;
+    clear: both;
+    float: left;
+    font-weight:600;
+    overflow: auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+.wf-button:hover {
+background: #fff;
+border: 2px solid #fff;
+color: #0ba8be;
+font-weight:600;
+}
+
+
+.button-c-wrap {
+float: left;
+width: 100%;
+list-style: none;
+text-align: center;
+}
+
+.t-center {
+display: inline-block;
+}
+
+
+.no-pad {
+padding: 0px;
+}
+
+.nav-pad {
+    padding-top:130px;
+}
+
+
+.banner-pad {
+padding-top:80px;
+padding-bottom: 80px;
+}
+
+
+
+.dsplit {
+	float: left;
+	width: 50%;
+}
+
+
+
+.make-blue {
+    color:#0ba8be;
+}
+
+
+
+
+
+ @media screen and (max-width: 1000px){
+
+.fourcolumn {
+	float: left;
+	width: 50%;
+	padding: 0px 10px;
+}
+
+.add-pad {
+	padding: 0px 10px;
+}
+
+.threecolumn {
+	float: left;
+	width: 50%;
+	padding: 0px 0px;
+}
+
+div.threecolumn.ma {
+clear:none;
+}
+
+
+div.threecolumn.em {
+clear:both;
+}
+
+
+div.threecolumn.pm {
+clear:both;
+}
+
+
+
+.hide-desktop {
+	display: block;
+}
+
+.hide-mobile {
+	display: none;
+}
+
+
+.flex-container:before {
+content: "";
+display: block;
+padding-top:50%;
+}
+
+
+
+ .fancy-title {
+	 font-size:30px;
+ }
+
+ .bottom-pad {
+	padding-bottom: 40px;
+}
+
+.bottom-margin {
+	margin-bottom: 40px;
+}
+
+
+.medium-title {
+	 font-size: 20px;
+	 font-weight: 800;
+ }
+
+
+ .medium-normal {
+	font-size: 20px;
+	font-weight: 600;
+	padding:5px 0px;
+}
+
+
+}
+
+@media screen and (max-width:769px){
+
+ .dsplit {
+        width: 100%;
+    }
+
+.sect-pad {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner-pad {
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+
+ .threecolumn {
+	float: left;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+
+
+}
+
+
+
+ @media screen and (max-width: 481px){
+	 .inner-pad {
+	 float: left;
+	 width:100%;
+	 padding: 0px 5%;
+ }
+
+ .threecolumn {
+	float: left;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+
+
+.hide-desktop {
+	display: block;
+}
+
+.hide-mobile {
+	display: none;
+}
+
+
+
+.flex-container:before {
+content: "";
+display: block;
+padding-top:70%;
+}
+
+
+
+ .fancy-title {
+	 font-size:26px;
+	 width: 100%;
+	 float: left;
+	 line-height: 1.1;
+	 padding-bottom: 10px;
+ }
+
+
+ .bottom-pad {
+	padding-bottom: 30px;
+}
+
+.bottom-margin {
+	margin-bottom: 20px;
+}
+
+
+.medium-title {
+	 font-size: 18px;
+	 font-weight: 800;
+ }
+
+
+
+.dsplit {
+	float: left;
+	width: 100%;
+}
+
+ .medium-normal {
+	font-size: 16px;
+	font-weight: 600;
+	padding:5px 0px;
+}
+
+.large-title {
+    font-size: 22px;
+}
+
+ .quote-text {
+     font-size:18px;
+	 width: 100%;
+	 float: left;
+	 line-height: 1;
+	 padding-bottom: 10px;
+ }
+
+.fourcolumn {
+	float: left;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+
+.sect-pad {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-pad {
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+
+.nav-pad {
+    padding-top:110px;
+}
+
+
+}
+
+
+
+ 
+ @media screen and (max-width: 350px){
+
+.fourcolumn {
+	float: left;
+	width: 100%;
+	padding: 0px 10px;
+}
+
+
+.threecolumn {
+	float: left;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+
+
+.hide-desktop {
+	display: block;
+}
+
+.hide-mobile {
+	display: none;
+}
+
+.flex-container:before {
+content: "";
+display: block;
+padding-top:75%;
+}
+
+
+.banner-pad {
+padding-top:40px;
+padding-bottom: 40px;
+}
+
+
+
+}

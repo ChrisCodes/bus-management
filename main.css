@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* font-size: 62.5%; */
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+/* Navigation*/
+
+.main-nav {
+  position: relative;
+  width: 100%;
+}
+
+.background_container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/bgImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-content {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  height: 77vh;
+  min-height: 40vh;
+}
+
+.about-content_info {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  padding: 5vw;
+}
+
+.content-holder {
+  font-family: "open-sans", sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.1rem;
+}
+
+.content-holder h2 {
+  margin: 1.8rem 0;
+  font-size: 1.4rem;
+  color: #a0a0a0;
+}
+
+.content-holder p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 1.8rem 0;
+}
+
+.about-content_img {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+}
+
+.img-holder {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-image: url(images/image2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+
+.img-holder:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}

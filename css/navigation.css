@@ -1,0 +1,177 @@
+
+.site-header {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background:#000;
+    color: #333;
+    position: fixed;
+    z-index:10;
+    box-shadow: 0px 1px 100px rgba(11,168,190,0.3);
+}
+
+
+.site-logo {
+    float: left;
+    height: 100%;
+    padding: 10px 0px;
+    display:block;
+}
+
+
+
+/*Navigation Search styling*/
+form.search_form {
+    float: left;
+    padding: 0px 10px;
+}
+
+.search_div {
+    float: left;
+    width: 500px;
+    padding: 10px 10px;
+    height: 100%;
+    
+}
+
+
+.search_box {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid #ccc;*/
+    padding: 0px 10px;
+    background: #00160a;
+    color: #ddd;
+    
+}
+
+
+
+/*The Desktop Navigation Styling*/
+.desk_nav_wrapper, ul.desk_nav {
+    float: right;
+    height: 100%;
+}
+
+ ul.desk_nav {
+    list-style:none;
+}
+
+ul.desk_nav a {
+  color: #ddd;
+}
+
+ul.desk_nav li {
+  float: right;
+  height: 100%;
+  line-height: 46px;
+  padding: 0px 30px;
+  border-top:2px solid transparent;
+  border-bottom:2px solid transparent;
+  position: relative;
+  color: #ddd;
+  cursor: pointer;
+}
+
+
+ul.desk_nav li:hover {
+  border-bottom:2px solid  #ccc;
+}
+
+
+
+ul.desk_nav li:hover  ul.drop-nav {
+ display:block;
+}
+
+
+
+ul.desk_nav li.user_menu {  
+   position: relative;
+   padding: 0px;
+   padding-left: 10px;
+}
+
+ul.desk_nav li.user_menu img { 
+   /*width: 100%;*/  
+   padding: 10px 0px;
+   /*background: #b00000;*/
+   height: 100%;
+   
+}
+
+
+
+
+
+      /*Secondary listing*/
+ul.desk_nav ul.drop_nav {
+  display:none;
+  top:100%;
+  right:0px;
+  width: 150px;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0px 1px 10px #ccc;
+  list-style:none;
+}
+
+
+ul.desk_nav li:hover ul.drop_nav {
+  display:block;
+}
+
+
+ul.desk_nav ul.drop_nav .drop_head  {
+
+    float:left;
+    width: 100%;
+    background: #f8f8f8;
+    border-bottom:1px solid #eaeaea;
+    padding:10px;
+    
+}
+
+ul.desk_nav ul.drop_nav .drop_body  {
+
+    float:left;
+    width: 100%;
+    background: #fff;
+    /*border-bottom:1px solid #eaeaea;*/
+    padding:10px;
+    padding-bottom: 20px;
+    
+}
+
+ul.desk_nav ul.drop_nav li {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 7px 0px;
+    line-height: 1;
+    border:none;
+    color: #555;
+}
+
+
+ul.desk_nav ul.drop_nav li:hover {
+    padding: 7px 3px;
+    color: #00843d;
+}
+
+
+
+.clear-nav {
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+
+
+

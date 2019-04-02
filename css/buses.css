@@ -1,0 +1,64 @@
+.one-bus {
+	float: left;
+	width: 100%;
+	background: #eee;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.one-bus:hover {
+	background: #ddd;
+	/*margin-top: -5px;*/
+}
+
+
+
+
+.one-bus .bus-details-box {
+	float: left;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+
+.one-bus .bus-details-box {
+	content: "";
+	padding-top: 75%;
+	display: block;
+}
+
+
+.one-bus .bus-details-box .bus-details-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+
+
+.one-bus .bus-details-box .bus-details-inner 
+.bus-details-slide {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	padding:10px;
+	color:#fff;
+}
+
+
+.one-bus .more-details {
+	padding:10px 10px 20px 10px;
+	width: 100%;
+	float: left;
+}
